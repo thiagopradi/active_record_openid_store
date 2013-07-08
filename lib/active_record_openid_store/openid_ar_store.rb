@@ -1,5 +1,5 @@
-require 'association'
-require 'nonce'
+require 'active_record_openid_store/association'
+require 'active_record_openid_store/nonce'
 require 'openid/store/interface'
 
 # not in OpenID module to avoid namespace conflict
